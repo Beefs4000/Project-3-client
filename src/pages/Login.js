@@ -8,7 +8,7 @@ import { useForm } from '../util/hooks';
 
 function Login(props) {
     const context = useContext(AuthContext)
-    const [errors, setErrors] = useState({});
+    const [errors] = useState({});
 
     // retrieving from hooks.js
     const { onChange, onSubmit, values } = useForm(loginUserCallback, {
