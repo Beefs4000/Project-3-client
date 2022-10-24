@@ -7,7 +7,7 @@ import { ApolloProvider } from '@apollo/react-hooks';
 import { setContext } from 'apollo-link-context';
 
 const httpLink = createHttpLink({
-  uri: 'http://localhost:3001'
+  uri: 'https://obscure-eyrie-30204.herokuapp.com/'
 });
 
 // takes request and previous context to get data
